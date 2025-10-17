@@ -11,3 +11,5 @@ obj/ancienttools.csproj.nuget.g.props
 obj/ancienttools.csproj.nuget.g.targets
 obj/project.assets.json
 obj/project.nuget.cache
+ancienttools.dll
+ancienttools.pdb
