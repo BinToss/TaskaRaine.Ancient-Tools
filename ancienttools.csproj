@@ -4,14 +4,8 @@
     <OutputType>Library</OutputType>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <OutputPath>$(ProjectDir)\Projects\VintageStory\Mods\Debug\ancienttools</OutputPath>
-    <IntermediateOutputPath>..\..\obj\Debug\ancienttools\</IntermediateOutputPath>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <OutputPath>$(ProjectDir)\Projects\VintageStory\Debug\ancienttools</OutputPath>
-    <IntermediateOutputPath>..\..\obj\Release\ancienttools\</IntermediateOutputPath>
+    <OutputPath>$(ProjectDir)\Projects\VintageStory\$(Configuration)\ancienttools</OutputPath>
+    <IntermediateOutputPath>..\..\obj\$(Configuration)\ancienttools</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="VintagestoryAPI" Private="false">
