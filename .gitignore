@@ -1,4 +1,4 @@
 obj/
 .dll
 .pdb
-.csproj.user
+*.csproj.user
