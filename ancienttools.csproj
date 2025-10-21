@@ -8,24 +8,12 @@
     <IntermediateOutputPath>..\..\obj\$(Configuration)\ancienttools</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="VintagestoryAPI" Private="false">
-      <HintPath>$(VINTAGE_STORY)/VintagestoryAPI.dll</HintPath>
-    </Reference>
-    <Reference Include="VSSurvivalMod" Private="false">
-      <HintPath>$(VINTAGE_STORY)/Mods/VSSurvivalMod.dll</HintPath>
-    </Reference>
-    <Reference Include="VSEssentials" Private="false">
-      <HintPath>$(VINTAGE_STORY)/Mods/VSEssentials.dll</HintPath>
-    </Reference>
-    <Reference Include="VSCreativeMod" Private="false">
-      <HintPath>$(VINTAGE_STORY)/Mods/VSCreativeMod.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json" Private="false">
-      <HintPath>$(VINTAGE_STORY)/Lib/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="0Harmony" Private="false">
-      <HintPath>$(VINTAGE_STORY)/Lib/0Harmony.dll</HintPath>
-    </Reference>
+    <Reference Label="VintagestoryAPI" Include="$(VINTAGE_STORY)/VintagestoryAPI.dll" Private="false" />
+    <Reference Label="VSSurvivalMod" Include="$(VINTAGE_STORY)/Mods/VSSurvivalMod.dll" Private="false" />
+    <Reference Label="VSEssentials" Include="$(VINTAGE_STORY)/Mods/VSEssentials.dll" Private="false" />
+    <Reference Label="VSCreativeMod" Include="$(VINTAGE_STORY)/Mods/VSCreativeMod.dll" Private="false" />
+    <Reference Label="Newtonsoft.Json" Include="$(VINTAGE_STORY)/Lib/Newtonsoft.Json.dll" Private="false" />
+    <Reference Label="0Harmony" Include="$(VINTAGE_STORY)/Lib/0Harmony.dll" Private="false" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
