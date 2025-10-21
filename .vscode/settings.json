@@ -3,4 +3,19 @@
     "**/assets/**/*.json": "json5"
   },
   "dotnet.automaticallyCreateSolutionInWorkspace": false,
+  "cSpell.words": [
+    "adzestrip",
+    "ancienttools",
+    "blockhelp",
+    "Datastructures",
+    "directionalresin",
+    "Itemstack",
+    "Itemstacks",
+    "knifecarve",
+    "knifecut",
+    "logbarrel",
+    "minpos",
+    "resinharvested",
+    "stripwood"
+  ],
 }
