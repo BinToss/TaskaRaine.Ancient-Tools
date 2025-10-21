@@ -4,7 +4,7 @@
     <OutputType>Library</OutputType>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <OutputPath>$(ProjectDir)\Projects\VintageStory\$(Configuration)\ancienttools</OutputPath>
+    <OutputPath>$(MSBuildProjectDirectory)\Projects\VintageStory\$(Configuration)\ancienttools</OutputPath>
     <IntermediateOutputPath>..\..\obj\$(Configuration)\ancienttools</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
