@@ -1,4 +1,5 @@
 obj/
+Projects/
 *.dll
 *.pdb
 *.csproj.user
