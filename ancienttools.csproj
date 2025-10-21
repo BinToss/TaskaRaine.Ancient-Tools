@@ -20,7 +20,7 @@
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\**" CopyToOutputDirectory="PreserveNewest"/>
+    <Content Include="assets\**" CopyToOutputDirectory="PreserveNewest" />
     <None Remove="assets\ancienttools\sounds\item\popsiclesnap.ogg" />
     <Content Include="modinfo.json" CopyToOutputDirectory="PreserveNewest" />
     <Content Include="modicon.png" CopyToOutputDirectory="PreserveNewest" />
